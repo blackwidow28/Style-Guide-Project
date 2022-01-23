@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+  }
+
+  body {
+    color: gray;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #fff;
+  }
+  
+  header {
+    background-image: url("../images/Fushia-background.jpg");
+    height: 7.5rem;
+    width: 100%;
+  
+  }
+  
+  h1 {
+    font-family: 'Raleway', Sans-Serif;
+    font-size: 66px;
+    font-weight: 700;
+    color: #EFD3B5;
+    padding: 30px;
+    display: inline;
+    width: 100rem;
+   
+   
+  }
+
+  h2 {
+      font-family: 'Raleway', Sans-serif;
+      font-size: 30px;
+      font-weight: 500;
+  }
+
+
+  
+  
+  nav li {
+    font-family: 'Open Sans', Sans-Serif;
+    font-size: 15px;
+    display: inline;
+    padding: 10px;
+    float: right;
+    
+  }
+
+
+
+  a {
+      color:  #EFD3B5;
+      text-decoration: none;
+      text-transform: uppercase;
+  }
+
+  a:hover {
+      color: #D67BA8;
+  }
+  
+  a:visited {
+      text-decoration: underline;
+      color: #5F093D;
+
+
+  }
+
+  /* Color boxes */
+
+  #colors div {
+    height: 17rem;
+    width: 17rem;
+    text-align: center;
+    border: 3px solid black;
+    padding: 3rem;
+    margin: 2rem;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#colors div p {
+    font-family: "Open sans";
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5rem;
+}
+      
+  .fushia-box {
+      background-color: hsl(324, 82%, 41%);
+  }
+
+  .swamp-box {
+      background-color: hsl(52, 82%, 24%);
+  }
+  
+  .burgandy-box {
+      background-color: hsl(324, 100%, 22%);
+  }
+
+  .teal-box {
+      background-color: hsl(184, 82%, 24%);
+  }
+
+  .blue-green-box {
+      background-color: hsl(184, 91%, 39%);
+  }
+  
+  
+  /* Colours to use
+  hsl(324, 82%, 41%) - fushia,
+      hsl(52, 82%, 24%) - swamp green,
+        hsl(324, 100%, 22%) - burgandy purple,
+          hsl(184, 82%, 24%) - teal,
+            hsl(184, 91%, 39%) - light blue-green, */
+  
+  /* Font I want to use;
+  Font-Family: 'Raleway', Sans-Serif;
+  Font-Size: 44px;
+  
+  Font-Family: 'Open Sans', Sans-Serif;
+  Font-Size: 15px; */
+  
