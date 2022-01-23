@@ -1,25 +1,44 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
+    border: 0;
+  }
+
+  body {
+    color: gray;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #fff;
   }
   
   header {
-    background-color: hsl(324, 82%, 41%);
-    height: 50 rems;
+    background-image: url("../images/Fushia-background.jpg");
+    height: 7.5rem;
     width: 100%;
   
   }
   
   h1 {
     font-family: 'Raleway', Sans-Serif;
-    font-size: 44px;
+    font-size: 66px;
     font-weight: 700;
-    width: 100%;
-    margin: 0 auto;
-    color: #EBE0D0;
-    padding: 20px;
-    display: inline-block;
+    color: #EFD3B5;
+    padding: 30px;
+    display: inline;
+    width: 100rem;
+   
+   
   }
+
+  h2 {
+      font-family: 'Raleway', Sans-serif;
+      font-size: 30px;
+      font-weight: 500;
+  }
+
+
   
   
   nav li {
@@ -28,9 +47,67 @@
     display: inline;
     padding: 10px;
     float: right;
-    background-image: 
+    
+  }
+
+
+
+  a {
+      color:  #EFD3B5;
+      text-decoration: none;
+      text-transform: uppercase;
+  }
+
+  a:hover {
+      color: #D67BA8;
   }
   
+  a:visited {
+      text-decoration: underline;
+      color: #5F093D;
+
+
+  }
+
+  /* Color boxes */
+
+  #colors div {
+    height: 7rem;
+    width: 17rem;
+    text-align: center;
+    border: 3px solid black;
+    padding: 3rem;
+    margin: 2rem;
+    color: #fff;
+    display: inline-block;
+}
+
+#colors div p {
+    font-family: "Open sans";
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+      
+  .fushia-box {
+      background-color: hsl(324, 82%, 41%);
+  }
+
+  .swamp-box {
+      background-color: hsl(52, 82%, 24%);
+  }
+  
+  .burgandy-box {
+      background-color: hsl(324, 100%, 22%);
+  }
+
+  .teal-box {
+      background-color: hsl(184, 82%, 24%);
+  }
+
+  .blue-green-box {
+      background-color: hsl(184, 91%, 39%);
+  }
   
   
   /* Colours to use
