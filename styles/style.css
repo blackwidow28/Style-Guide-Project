@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: hsl(324, 82%, 41%);
+    height: 50 rems;
+    width: 100%;
+  
+  }
+  
+  h1 {
+    font-family: 'Raleway', Sans-Serif;
+    font-size: 44px;
+    font-weight: 700;
+    width: 100%;
+    margin: 0 auto;
+    color: #EBE0D0;
+    padding: 20px;
+    display: inline-block;
+  }
+  
+  
+  nav li {
+    font-family: 'Open Sans', Sans-Serif;
+    font-size: 15px;
+    display: inline;
+    padding: 10px;
+    float: right;
+    background-image: 
+  }
+  
+  
+  
+  /* Colours to use
+  hsl(324, 82%, 41%) - fushia,
+      hsl(52, 82%, 24%) - swamp green,
+        hsl(324, 100%, 22%) - burgandy purple,
+          hsl(184, 82%, 24%) - teal,
+            hsl(184, 91%, 39%) - light blue-green, */
+  
+  /* Font I want to use;
+  Font-Family: 'Raleway', Sans-Serif;
+  Font-Size: 44px;
+  
+  Font-Family: 'Open Sans', Sans-Serif;
+  Font-Size: 15px; */
+  
