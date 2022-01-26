@@ -168,7 +168,7 @@
     font-family: 'Raleway', Sans-Serif;
     font-size: 4.5rem;
     font-weight: 700;
-    margin-left: 4rem;
+    margin-left: 2rem;
     color: hsl(184, 82%, 24%);
   }
 
@@ -176,23 +176,41 @@
     font-family: 'Raleway', Sans-serif;
     font-size: 3rem;
     font-weight: 800;
-    margin-left: 4rem;
+    margin-left: 2rem;
     color: hsl(324, 82%, 41%);
 
   }
   
-  .text-styles ul, .text-styles p, .text-styles h1 {
+  #text-styles {
     font-family: "Open sans";
     font-weight: 400;
-    margin-left: 4rem;
+    margin-left: 2rem;
     color: hsl(184, 91%, 39%) !important;
   }
   
-  #text-styles, #subheading-styles, #paragraph-styles {
-    background-color: black;
+  .subheading-styles, .paragraph-styles, .heading-styles {
     padding-left: 4rem;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
+    margin: 0;
+  }
+
+  #text-styles li {
+    margin-left: 4rem;
+  }
+
+  #text-styles h2 {
+    color: black;
+  }
+
+  .subheading-styles h2 {
+    color: hsl(324, 82%, 41%) !important;
+  }
+
+  .paragraph-styles p {
+    color: black;
+    margin-left: 2rem;
+    font-weight: bold;
   }
 
   footer {
