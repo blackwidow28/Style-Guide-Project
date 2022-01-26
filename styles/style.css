@@ -86,7 +86,10 @@
     width: 12rem;
     text-align: center;
     border: 5px solid gray;
-    padding: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
     margin: 2rem;
     color: #fff;
     display: inline-block;
@@ -95,18 +98,19 @@
 
 #colors div p {
     font-family: "Open sans";
-    font-size: 20px;
     font-weight: 400;
+    color: hsl(31, 64%, 82%);
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
    
 }
       
   .fushia-box {
       background-color: hsl(324, 82%, 41%);
+      margin-left: 8rem !important;
   }
 
-  .swamp-box {
-      background-color: hsl(52, 82%, 24%);
-  }
   
   .burgandy-box {
       background-color: hsl(324, 100%, 22%);
