@@ -15,6 +15,8 @@
   
   header {
     background-image: url("../images/Fushia-background.jpg");
+    background-color: hsl(324, 82%, 41%);
+    background-blend-mode: multiply;
     height: 12rem;
     width: 100%;
     margin: 0;
@@ -35,12 +37,20 @@
    
   }
 
-  h2 {
+  #fonts h2, #colors h2 {
       font-family: 'Raleway', Sans-serif;
       font-size: 3rem;
       font-weight: 800;
       padding: 1rem;
       margin: 2rem 4rem;
+      color: black;
+      display: block;
+      
+  }
+
+  h3 {
+    font-size: 2.5rem;
+    margin-left: 8rem;
   }
 
 
@@ -78,6 +88,36 @@
 
 
   }
+
+  div {
+    margin-bottom: 4rem;
+  }
+
+  .open-sans-style p {
+    font-family: "Open Sans";
+    margin-left: 8rem;
+    font-size: 2rem;
+    
+
+  }
+
+  .raleway-style p {
+    font-family: "Raleway";
+    margin-left: 8rem;
+    font-size: 2rem;
+  }
+
+  .raleway-style h3 {
+    font-family: Raleway;
+    text-decoration: underline;
+  }
+
+  .open-sans-style h3 {
+    font-family: "Open Sans";
+    text-decoration: underline;
+  }
+
+ 
 
   /* Color boxes */
 
@@ -123,19 +163,41 @@
   .blue-green-box {
       background-color: hsl(184, 91%, 39%);
   }
+
+  h1 {
+    font-family: 'Raleway', Sans-Serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-left: 4rem;
+    color: hsl(184, 82%, 24%);
+  }
+
+  h2 {
+    font-family: 'Raleway', Sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-left: 4rem;
+    color: hsl(324, 82%, 41%);
+
+  }
   
+  .text-styles ul, .text-styles p, .text-styles h1 {
+    font-family: "Open sans";
+    font-weight: 400;
+    margin-left: 4rem;
+    color: hsl(184, 91%, 39%) !important;
+  }
   
-  /* Colours to use
-  hsl(324, 82%, 41%) - fushia,
-      hsl(52, 82%, 24%) - swamp green,
-        hsl(324, 100%, 22%) - burgandy purple,
-          hsl(184, 82%, 24%) - teal,
-            hsl(184, 91%, 39%) - light blue-green, */
-  
-  /* Font I want to use;
-  Font-Family: 'Raleway', Sans-Serif;
-  Font-Size: 44px;
-  
-  Font-Family: 'Open Sans', Sans-Serif;
-  Font-Size: 15px; */
+  #text-styles, #subheading-styles, #paragraph-styles {
+    background-color: black;
+    padding-left: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  footer {
+    float: right;
+    padding: 2rem;
+  }
+
   
